@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1093935215705",
+    "project_id": "wallet-caex",
+    "storage_bucket": "wallet-caex.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093935215705:android:b411358e1e47f25d826d48",
+        "android_client_info": {
+          "package_name": "com.trustnewallet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVz4j2Q2CewcJK8xh1ftMBc-X13H7GTdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

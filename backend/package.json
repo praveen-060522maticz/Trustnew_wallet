@@ -1,0 +1,46 @@
+{
+  "name": "Moveit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=local nodemon babel_hook.js",
+    "demo": "NODE_ENV=demo nodemon babel_hook.js",
+    "server": "NODE_ENV=production node babel_hook.js",
+    "production": "NODE_ENV=production nodemon babel_hook.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@noble/secp256k1": "^2.0.0",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.1",
+    "express-fileupload": "^1.4.0",
+    "fcm-node": "^1.6.1",
+    "from": "^0.1.7",
+    "http": "0.0.1-security",
+    "import": "0.0.6",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.3.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.3",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "path": "^0.12.7",
+    "stripe": "^14.1.0",
+    "tronweb": "^5.3.1",
+    "web3": "^1.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/register": "^7.12.10",
+    "nodemon": "^2.0.6"
+  }
+}
