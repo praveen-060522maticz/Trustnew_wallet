@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">1093935215705</string>
+    <string name="google_api_key" translatable="false">AIzaSyBVz4j2Q2CewcJK8xh1ftMBc-X13H7GTdk</string>
+    <string name="google_app_id" translatable="false">1:1093935215705:android:b411358e1e47f25d826d48</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBVz4j2Q2CewcJK8xh1ftMBc-X13H7GTdk</string>
+    <string name="google_storage_bucket" translatable="false">wallet-caex.appspot.com</string>
+    <string name="project_id" translatable="false">wallet-caex</string>
+</resources>

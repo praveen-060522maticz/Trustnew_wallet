@@ -1,0 +1,45 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Satoshi-Bold.ttf",
+      "sha1": "b825a4a89b7257537a202316b08997a2d2f00a49"
+    },
+    {
+      "path": "src/assets/fonts/Satoshi-Light.ttf",
+      "sha1": "ea23468d55ad9a76958cf84a52b71b65bea35db0"
+    },
+    {
+      "path": "src/assets/fonts/Satoshi-Medium.ttf",
+      "sha1": "e4539f4688c865204a879dc3253d3547f0444818"
+    },
+    {
+      "path": "src/assets/fonts/Satoshi-Regular.ttf",
+      "sha1": "13224695353ce4af549e2533faa2da733c60fe2a"
+    },
+    {
+      "path": "src/assets/fonts/Sen-Bold-OLD.ttf",
+      "sha1": "249a3fcaf0a77efe1ec8ebb24d4157c64ac843f2"
+    },
+    {
+      "path": "src/assets/fonts/Sen-Bold.ttf",
+      "sha1": "249a3fcaf0a77efe1ec8ebb24d4157c64ac843f2"
+    },
+    {
+      "path": "src/assets/fonts/Sen-ExtraBold-OLD.ttf",
+      "sha1": "02dc625d83ae702d09e453f49a06d7aaea23c794"
+    },
+    {
+      "path": "src/assets/fonts/Sen-ExtraBold.ttf",
+      "sha1": "02dc625d83ae702d09e453f49a06d7aaea23c794"
+    },
+    {
+      "path": "src/assets/fonts/Sen-Regular-OLD.ttf",
+      "sha1": "6b01bfe7589c433ea93be86cf854fdea600b3d07"
+    },
+    {
+      "path": "src/assets/fonts/Sen-Regular.ttf",
+      "sha1": "6b01bfe7589c433ea93be86cf854fdea600b3d07"
+    }
+  ]
+}

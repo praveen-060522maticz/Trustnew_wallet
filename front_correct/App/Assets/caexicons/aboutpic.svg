@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_36922" data-name="Group 36922" transform="translate(10610 -4513)">
+    <g id="Iconly_Light-Outline_Danger-Circle" data-name="Iconly/Light-Outline/Danger-Circle" transform="matrix(-1, 0.017, -0.017, -1, -10584.694, 4537.85)">
+      <g id="Danger-Circle" transform="translate(2 2)">
+        <path id="Combined-Shape" d="M11.08,0A11.08,11.08,0,1,1,0,11.08,11.092,11.092,0,0,1,11.08,0Zm0,1.662A9.418,9.418,0,1,0,20.5,11.08,9.428,9.428,0,0,0,11.08,1.662Zm0,12.515a1.108,1.108,0,1,1-.011,0Zm-.011-8.135a.831.831,0,0,1,.831.831v4.9a.831.831,0,1,1-1.662,0v-4.9A.831.831,0,0,1,11.073,6.043Z" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <rect id="Rectangle_584" data-name="Rectangle 584" width="24" height="24" transform="translate(-10610 4513)" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,697 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.trustnewallet"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:4:5-79
+13-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:4:22-76
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:5:5-65
+14-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:5:22-63
+15    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+15-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:6:5-74
+15-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:6:22-71
+16    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+16-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:7:5-72
+16-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:7:22-69
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:8:5-80
+17-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:8:22-78
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+18-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:9:5-76
+18-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:9:22-74
+19    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+19-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:10:5-79
+19-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:10:22-76
+20    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+20-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:11:5-85
+20-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:11:22-82
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->[com.facebook.flipper:flipper:0.125.0] /home/praveen/.gradle/caches/transforms-3/87e9e28f7203a27b2f2a5f52d412de1f/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+21-->[com.facebook.flipper:flipper:0.125.0] /home/praveen/.gradle/caches/transforms-3/87e9e28f7203a27b2f2a5f52d412de1f/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+22    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required to read and write the expansion files on shared storage for Android 11 -->
+22-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+22-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Required to to download files without a notification -->
+23-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:5-80
+23-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:22-77
+24    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+24-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:5-88
+24-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:22-85
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->[:react-native-camera] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:9:5-65
+25-->[:react-native-camera] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:9:22-62
+26
+27    <uses-feature
+27-->[:react-native-camera] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+28        android:name="android.hardware.camera"
+28-->[:react-native-camera] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:12:9-47
+29        android:required="false" />
+29-->[:react-native-camera] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:13:9-33
+30    <uses-feature
+30-->[:react-native-camera] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+31        android:name="android.hardware.camera.autofocus"
+31-->[:react-native-camera] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:15:9-57
+32        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+32-->[:react-native-camera] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:16:9-33
+33    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+33-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:26:5-82
+33-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:26:22-79
+34    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+34-->[com.google.android.gms:play-services-measurement-api:21.6.2] /home/praveen/.gradle/caches/transforms-3/06087c05134af2123cf82fbb23c47d61/transformed/jetified-play-services-measurement-api-21.6.2/AndroidManifest.xml:25:5-79
+34-->[com.google.android.gms:play-services-measurement-api:21.6.2] /home/praveen/.gradle/caches/transforms-3/06087c05134af2123cf82fbb23c47d61/transformed/jetified-play-services-measurement-api-21.6.2/AndroidManifest.xml:25:22-76
+35    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+35-->[com.google.android.gms:play-services-measurement-api:21.6.2] /home/praveen/.gradle/caches/transforms-3/06087c05134af2123cf82fbb23c47d61/transformed/jetified-play-services-measurement-api-21.6.2/AndroidManifest.xml:26:5-88
+35-->[com.google.android.gms:play-services-measurement-api:21.6.2] /home/praveen/.gradle/caches/transforms-3/06087c05134af2123cf82fbb23c47d61/transformed/jetified-play-services-measurement-api-21.6.2/AndroidManifest.xml:26:22-85
+36    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+36-->[com.google.android.gms:play-services-measurement-api:21.6.2] /home/praveen/.gradle/caches/transforms-3/06087c05134af2123cf82fbb23c47d61/transformed/jetified-play-services-measurement-api-21.6.2/AndroidManifest.xml:27:5-82
+36-->[com.google.android.gms:play-services-measurement-api:21.6.2] /home/praveen/.gradle/caches/transforms-3/06087c05134af2123cf82fbb23c47d61/transformed/jetified-play-services-measurement-api-21.6.2/AndroidManifest.xml:27:22-79
+37    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+37-->[com.google.android.gms:play-services-measurement:21.6.2] /home/praveen/.gradle/caches/transforms-3/91d72e357696ea92b801557f1930449e/transformed/jetified-play-services-measurement-21.6.2/AndroidManifest.xml:26:5-110
+37-->[com.google.android.gms:play-services-measurement:21.6.2] /home/praveen/.gradle/caches/transforms-3/91d72e357696ea92b801557f1930449e/transformed/jetified-play-services-measurement-21.6.2/AndroidManifest.xml:26:22-107
+38
+39    <permission
+39-->[androidx.core:core:1.9.0] /home/praveen/.gradle/caches/transforms-3/64df287290b7924cd73574080127fc8e/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+40        android:name="com.trustnewallet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.9.0] /home/praveen/.gradle/caches/transforms-3/64df287290b7924cd73574080127fc8e/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.9.0] /home/praveen/.gradle/caches/transforms-3/64df287290b7924cd73574080127fc8e/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.trustnewallet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
+43-->[androidx.core:core:1.9.0] /home/praveen/.gradle/caches/transforms-3/64df287290b7924cd73574080127fc8e/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.9.0] /home/praveen/.gradle/caches/transforms-3/64df287290b7924cd73574080127fc8e/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+44    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+45    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+46    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+47    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+48    <!-- for Samsung -->
+49    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+49-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+49-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+50    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+50-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+50-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+51    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+51-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+51-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+52    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+52-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+52-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+53    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+53-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+53-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+54    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+54-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+54-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+55    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+55-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+55-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+56    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+56-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+56-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+57    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+57-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+57-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+58    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+58-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+58-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+59    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+59-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+59-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+60    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+60-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+60-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+61    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+61-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+61-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+62    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+62-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+62-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+63    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+63-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+63-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+64    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+64-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+64-->[me.leolin:ShortcutBadger:1.1.22] /home/praveen/.gradle/caches/transforms-3/3f12743e064b78d2af22204639dcde07/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+65
+66    <application
+66-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:13:5-60:19
+67        android:name="com.trustnewallet.MainApplication"
+67-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:15:7-38
+68        android:allowBackup="false"
+68-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:19:7-34
+69        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+69-->[androidx.core:core:1.9.0] /home/praveen/.gradle/caches/transforms-3/64df287290b7924cd73574080127fc8e/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+70        android:debuggable="true"
+71        android:icon="@mipmap/ic_launcher"
+71-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:17:7-41
+72        android:label="@string/app_name"
+72-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:16:7-39
+73        android:roundIcon="@mipmap/ic_launcher_round"
+73-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:18:7-52
+74        android:theme="@style/AppTheme"
+74-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:20:7-38
+75        android:usesCleartextTraffic="true" >
+75-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:14:7-42
+76        <activity
+76-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/debug/AndroidManifest.xml:11:9-111
+77            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+77-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/debug/AndroidManifest.xml:11:19-83
+78            android:exported="false" />
+78-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/debug/AndroidManifest.xml:11:84-108
+79
+80        <meta-data
+80-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:22:3-23:44
+81            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+81-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:22:15-91
+82            android:value="false" />
+82-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:23:21-42
+83        <meta-data
+83-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:25:9-26:54
+84            android:name="com.dieam.reactnativepushnotification.notification_color"
+84-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:25:21-92
+85            android:resource="@color/white" />
+85-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:26:21-52
+86        <meta-data
+86-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:27:23-29:28
+87            android:name="com.google.android.gms.wallet.api.enabled"
+87-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:28:5-61
+88            android:value="true" />
+88-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:29:5-25
+89
+90        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+90-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:30:11-110
+90-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:30:21-107
+91        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+91-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:31:9-110
+91-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:31:19-107
+92        <receiver
+92-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:32:9-38:20
+93            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+93-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:32:43-139
+94            android:exported="true" >
+94-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:32:19-42
+95            <intent-filter>
+95-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:33:9-37:29
+96                <action android:name="android.intent.action.BOOT_COMPLETED" />
+96-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:34:17-79
+96-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:34:25-76
+97                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+97-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:35:17-82
+97-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:35:25-79
+98                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+98-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:36:17-81
+98-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:36:25-79
+99            </intent-filter>
+100        </receiver>
+101
+102        <service
+102-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:40:10-46:19
+103            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+103-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:41:13-107
+104            android:exported="false" >
+104-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:42:13-37
+105            <intent-filter>
+105-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:43:13-45:29
+106                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+106-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:44:17-78
+106-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:44:25-75
+107            </intent-filter>
+108        </service>
+109
+110        <activity
+110-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:48:7-59:18
+111            android:name="com.trustnewallet.MainActivity"
+111-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:49:9-37
+112            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+112-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:51:9-118
+113            android:exported="true"
+113-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:54:9-32
+114            android:label="@string/app_name"
+114-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:50:9-41
+115            android:launchMode="singleTask"
+115-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:52:9-40
+116            android:windowSoftInputMode="adjustPan" >
+116-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:53:9-48
+117            <intent-filter>
+117-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:55:9-58:25
+118                <action android:name="android.intent.action.MAIN" />
+118-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:56:13-65
+118-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:56:21-62
+119
+120                <category android:name="android.intent.category.LAUNCHER" />
+120-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:57:13-73
+120-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:57:23-70
+121            </intent-filter>
+122        </activity>
+123
+124        <service
+124-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+125            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+125-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-103
+126            android:exported="false" />
+126-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+127        <service
+127-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:19
+128            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+128-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-95
+129            android:exported="false" >
+129-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+130            <intent-filter>
+130-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:43:13-45:29
+131                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+131-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:44:17-78
+131-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:44:25-75
+132            </intent-filter>
+133        </service>
+134
+135        <receiver
+135-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-32:20
+136            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+136-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-96
+137            android:exported="true"
+137-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+138            android:permission="com.google.android.c2dm.permission.SEND" >
+138-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-73
+139            <intent-filter>
+139-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+140                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+140-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+140-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+141            </intent-filter>
+142        </receiver>
+143
+144        <meta-data
+144-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-36:36
+145            android:name="firebase_messaging_auto_init_enabled"
+145-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-64
+146            android:value="true" />
+146-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-33
+147        <meta-data
+147-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-39:32
+148            android:name="com.google.firebase.messaging.default_notification_channel_id"
+148-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-89
+149            android:value="" />
+149-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-29
+150        <meta-data
+150-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-42:47
+151            android:name="com.google.firebase.messaging.default_notification_color"
+151-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-84
+152            android:resource="@color/white" />
+152-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44
+153        <meta-data
+153-->[:react-native-firebase_app] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+154            android:name="app_data_collection_default_enabled"
+154-->[:react-native-firebase_app] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+155            android:value="true" />
+155-->[:react-native-firebase_app] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+156
+157        <service
+157-->[:react-native-firebase_app] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+158            android:name="com.google.firebase.components.ComponentDiscoveryService"
+158-->[:react-native-firebase_app] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+159            android:directBootAware="true"
+159-->[:react-native-firebase_app] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
+160            android:exported="false" >
+160-->[:react-native-firebase_app] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+161            <meta-data
+161-->[:react-native-firebase_app] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+162                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+162-->[:react-native-firebase_app] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[:react-native-firebase_app] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:57:13-59:85
+165                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+165-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:58:17-122
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:59:17-82
+167            <meta-data
+167-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:60:13-62:85
+168                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+168-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:61:17-119
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:62:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-datatransport:18.1.7] /home/praveen/.gradle/caches/transforms-3/c9676e8f325b2415f453e306e7f15d29/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+171                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+171-->[com.google.firebase:firebase-datatransport:18.1.7] /home/praveen/.gradle/caches/transforms-3/c9676e8f325b2415f453e306e7f15d29/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-datatransport:18.1.7] /home/praveen/.gradle/caches/transforms-3/c9676e8f325b2415f453e306e7f15d29/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+173            <meta-data
+173-->[com.google.android.gms:play-services-measurement-api:21.6.2] /home/praveen/.gradle/caches/transforms-3/06087c05134af2123cf82fbb23c47d61/transformed/jetified-play-services-measurement-api-21.6.2/AndroidManifest.xml:37:13-39:85
+174                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+174-->[com.google.android.gms:play-services-measurement-api:21.6.2] /home/praveen/.gradle/caches/transforms-3/06087c05134af2123cf82fbb23c47d61/transformed/jetified-play-services-measurement-api-21.6.2/AndroidManifest.xml:38:17-139
+175                android:value="com.google.firebase.components.ComponentRegistrar" />
+175-->[com.google.android.gms:play-services-measurement-api:21.6.2] /home/praveen/.gradle/caches/transforms-3/06087c05134af2123cf82fbb23c47d61/transformed/jetified-play-services-measurement-api-21.6.2/AndroidManifest.xml:39:17-82
+176            <meta-data
+176-->[com.google.firebase:firebase-installations:17.2.0] /home/praveen/.gradle/caches/transforms-3/05cc643c1e1892cbc407f339ef06e5db/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+177                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+177-->[com.google.firebase:firebase-installations:17.2.0] /home/praveen/.gradle/caches/transforms-3/05cc643c1e1892cbc407f339ef06e5db/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[com.google.firebase:firebase-installations:17.2.0] /home/praveen/.gradle/caches/transforms-3/05cc643c1e1892cbc407f339ef06e5db/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+179            <meta-data
+179-->[com.google.firebase:firebase-installations:17.2.0] /home/praveen/.gradle/caches/transforms-3/05cc643c1e1892cbc407f339ef06e5db/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+180                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+180-->[com.google.firebase:firebase-installations:17.2.0] /home/praveen/.gradle/caches/transforms-3/05cc643c1e1892cbc407f339ef06e5db/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+181                android:value="com.google.firebase.components.ComponentRegistrar" />
+181-->[com.google.firebase:firebase-installations:17.2.0] /home/praveen/.gradle/caches/transforms-3/05cc643c1e1892cbc407f339ef06e5db/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+182            <meta-data
+182-->[com.google.firebase:firebase-common-ktx:20.4.3] /home/praveen/.gradle/caches/transforms-3/09c477c3aa5675bd135b092c683ce3fd/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:12:13-14:85
+183                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+183-->[com.google.firebase:firebase-common-ktx:20.4.3] /home/praveen/.gradle/caches/transforms-3/09c477c3aa5675bd135b092c683ce3fd/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:13:17-116
+184                android:value="com.google.firebase.components.ComponentRegistrar" />
+184-->[com.google.firebase:firebase-common-ktx:20.4.3] /home/praveen/.gradle/caches/transforms-3/09c477c3aa5675bd135b092c683ce3fd/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:14:17-82
+185            <meta-data
+185-->[com.google.firebase:firebase-common:20.4.3] /home/praveen/.gradle/caches/transforms-3/851e3b408355834ba705294a1e2c00e4/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:35:13-37:85
+186                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+186-->[com.google.firebase:firebase-common:20.4.3] /home/praveen/.gradle/caches/transforms-3/851e3b408355834ba705294a1e2c00e4/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:36:17-109
+187                android:value="com.google.firebase.components.ComponentRegistrar" />
+187-->[com.google.firebase:firebase-common:20.4.3] /home/praveen/.gradle/caches/transforms-3/851e3b408355834ba705294a1e2c00e4/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:37:17-82
+188        </service>
+189
+190        <provider
+190-->[:react-native-firebase_app] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+191            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+191-->[:react-native-firebase_app] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+192            android:authorities="com.trustnewallet.reactnativefirebaseappinitprovider"
+192-->[:react-native-firebase_app] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+193            android:exported="false"
+193-->[:react-native-firebase_app] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+194            android:initOrder="99" />
+194-->[:react-native-firebase_app] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+195        <provider
+195-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-45:20
+196            android:name="com.ReactNativeBlobUtil.Utils.FileProvider"
+196-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-70
+197            android:authorities="com.trustnewallet.provider"
+197-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-60
+198            android:exported="false"
+198-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-37
+199            android:grantUriPermissions="true" >
+199-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-47
+200            <meta-data
+200-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
+201                android:name="android.support.FILE_PROVIDER_PATHS"
+201-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
+202                android:resource="@xml/provider_paths" />
+202-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
+203        </provider>
+204        <provider
+204-->[:react-native-share] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+205            android:name="cl.json.RNShareFileProvider"
+205-->[:react-native-share] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-55
+206            android:authorities="com.trustnewallet.rnshare.fileprovider"
+206-->[:react-native-share] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-72
+207            android:exported="false"
+207-->[:react-native-share] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+208            android:grantUriPermissions="true" >
+208-->[:react-native-share] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+209            <meta-data
+209-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
+210                android:name="android.support.FILE_PROVIDER_PATHS"
+210-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
+211                android:resource="@xml/share_download_paths" />
+211-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
+212        </provider>
+213        <provider
+213-->[:react-native-webview] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+214            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+214-->[:react-native-webview] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+215            android:authorities="com.trustnewallet.fileprovider"
+215-->[:react-native-webview] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+216            android:exported="false"
+216-->[:react-native-webview] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+217            android:grantUriPermissions="true" >
+217-->[:react-native-webview] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+218            <meta-data
+218-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
+219                android:name="android.support.FILE_PROVIDER_PATHS"
+219-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
+220                android:resource="@xml/file_provider_paths" />
+220-->[:react-native-blob-util] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
+221        </provider>
+222
+223        <receiver
+223-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:29:9-40:20
+224            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+224-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:30:13-78
+225            android:exported="true"
+225-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:31:13-36
+226            android:permission="com.google.android.c2dm.permission.SEND" >
+226-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:32:13-73
+227            <intent-filter>
+227-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+228                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+228-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+228-->[:react-native-firebase_messaging] /home/praveen/git/Trustnew_wallet/front_correct/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+229            </intent-filter>
+230
+231            <meta-data
+231-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:37:13-39:40
+232                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+232-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:38:17-92
+233                android:value="true" />
+233-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:39:17-37
+234        </receiver>
+235        <!--
+236             FirebaseMessagingService performs security checks at runtime,
+237             but set to not exported to explicitly avoid allowing another app to call it.
+238        -->
+239        <service
+239-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:46:9-53:19
+240            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+240-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:47:13-82
+241            android:directBootAware="true"
+241-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:48:13-43
+242            android:exported="false" >
+242-->[com.google.firebase:firebase-messaging:23.4.1] /home/praveen/.gradle/caches/transforms-3/1334810c3d3bbb737a600112d5d6b594/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:49:13-37
+243            <intent-filter android:priority="-500" >
+243-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:43:13-45:29
+244                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+244-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:44:17-78
+244-->/home/praveen/git/Trustnew_wallet/front_correct/android/app/src/main/AndroidManifest.xml:44:25-75
+245            </intent-filter>
+246        </service>
+247        <service
+247-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/praveen/.gradle/caches/transforms-3/ff0d0bdaa84c8644979a853db6e8ed74/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:9:9-15:19
+248            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+248-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/praveen/.gradle/caches/transforms-3/ff0d0bdaa84c8644979a853db6e8ed74/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:10:13-91
+249            android:directBootAware="true"
+249-->[com.google.mlkit:common:17.2.0] /home/praveen/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:17:13-43
+250            android:exported="false" >
+250-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/praveen/.gradle/caches/transforms-3/ff0d0bdaa84c8644979a853db6e8ed74/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:11:13-37
+251            <meta-data
+251-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/praveen/.gradle/caches/transforms-3/ff0d0bdaa84c8644979a853db6e8ed74/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:12:13-14:85
+252                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+252-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/praveen/.gradle/caches/transforms-3/ff0d0bdaa84c8644979a853db6e8ed74/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:13:17-120
+253                android:value="com.google.firebase.components.ComponentRegistrar" />
+253-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/praveen/.gradle/caches/transforms-3/ff0d0bdaa84c8644979a853db6e8ed74/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:14:17-82
+254            <meta-data
+254-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /home/praveen/.gradle/caches/transforms-3/1668b50f2516e72725992fd92884d2ae/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:12:13-14:85
+255                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+255-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /home/praveen/.gradle/caches/transforms-3/1668b50f2516e72725992fd92884d2ae/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:13:17-114
+256                android:value="com.google.firebase.components.ComponentRegistrar" />
+256-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /home/praveen/.gradle/caches/transforms-3/1668b50f2516e72725992fd92884d2ae/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:14:17-82
+257            <meta-data
+257-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /home/praveen/.gradle/caches/transforms-3/460bc514557e48da254243d4a20f337f/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:12:13-14:85
+258                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+258-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /home/praveen/.gradle/caches/transforms-3/460bc514557e48da254243d4a20f337f/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:13:17-114
+259                android:value="com.google.firebase.components.ComponentRegistrar" />
+259-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /home/praveen/.gradle/caches/transforms-3/460bc514557e48da254243d4a20f337f/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:14:17-82
+260            <meta-data
+260-->[com.google.mlkit:vision-common:16.5.0] /home/praveen/.gradle/caches/transforms-3/62e8aa1d313f57cc4c18db864e40af1b/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:12:13-14:85
+261                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+261-->[com.google.mlkit:vision-common:16.5.0] /home/praveen/.gradle/caches/transforms-3/62e8aa1d313f57cc4c18db864e40af1b/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:13:17-124
+262                android:value="com.google.firebase.components.ComponentRegistrar" />
+262-->[com.google.mlkit:vision-common:16.5.0] /home/praveen/.gradle/caches/transforms-3/62e8aa1d313f57cc4c18db864e40af1b/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:14:17-82
+263            <meta-data
+263-->[com.google.mlkit:common:17.2.0] /home/praveen/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:20:13-22:85
+264                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+264-->[com.google.mlkit:common:17.2.0] /home/praveen/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:21:17-120
+265                android:value="com.google.firebase.components.ComponentRegistrar" />
+265-->[com.google.mlkit:common:17.2.0] /home/praveen/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:22:17-82
+266        </service>
+267
+268        <provider
+268-->[com.google.mlkit:common:17.2.0] /home/praveen/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:9:9-13:38
+269            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+269-->[com.google.mlkit:common:17.2.0] /home/praveen/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:10:13-78
+270            android:authorities="com.trustnewallet.mlkitinitprovider"
+270-->[com.google.mlkit:common:17.2.0] /home/praveen/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:11:13-69
+271            android:exported="false"
+271-->[com.google.mlkit:common:17.2.0] /home/praveen/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:12:13-37
+272            android:initOrder="99" />
+272-->[com.google.mlkit:common:17.2.0] /home/praveen/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:13:13-35
+273
+274        <service
+274-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/praveen/.gradle/caches/transforms-3/44710bdbb312dec763d737e2838ad49f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+275            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+275-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/praveen/.gradle/caches/transforms-3/44710bdbb312dec763d737e2838ad49f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+276            android:exported="false" >
+276-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/praveen/.gradle/caches/transforms-3/44710bdbb312dec763d737e2838ad49f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+277            <meta-data
+277-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/praveen/.gradle/caches/transforms-3/44710bdbb312dec763d737e2838ad49f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+278                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+278-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/praveen/.gradle/caches/transforms-3/44710bdbb312dec763d737e2838ad49f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+279                android:value="cct" />
+279-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/praveen/.gradle/caches/transforms-3/44710bdbb312dec763d737e2838ad49f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+280        </service>
+281        <service
+281-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/praveen/.gradle/caches/transforms-3/f78ca01de8f95791362c8b0e921a1865/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+282            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+282-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/praveen/.gradle/caches/transforms-3/f78ca01de8f95791362c8b0e921a1865/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+283            android:exported="false"
+283-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/praveen/.gradle/caches/transforms-3/f78ca01de8f95791362c8b0e921a1865/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+284            android:permission="android.permission.BIND_JOB_SERVICE" >
+284-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/praveen/.gradle/caches/transforms-3/f78ca01de8f95791362c8b0e921a1865/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+285        </service>
+286
+287        <receiver
+287-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/praveen/.gradle/caches/transforms-3/f78ca01de8f95791362c8b0e921a1865/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+288            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+288-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/praveen/.gradle/caches/transforms-3/f78ca01de8f95791362c8b0e921a1865/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+289            android:exported="false" />
+289-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/praveen/.gradle/caches/transforms-3/f78ca01de8f95791362c8b0e921a1865/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+290
+291        <property
+291-->[com.google.android.gms:play-services-measurement-api:21.6.2] /home/praveen/.gradle/caches/transforms-3/06087c05134af2123cf82fbb23c47d61/transformed/jetified-play-services-measurement-api-21.6.2/AndroidManifest.xml:30:9-32:61
+292            android:name="android.adservices.AD_SERVICES_CONFIG"
+292-->[com.google.android.gms:play-services-measurement-api:21.6.2] /home/praveen/.gradle/caches/transforms-3/06087c05134af2123cf82fbb23c47d61/transformed/jetified-play-services-measurement-api-21.6.2/AndroidManifest.xml:31:13-65
+293            android:resource="@xml/ga_ad_services_config" />
+293-->[com.google.android.gms:play-services-measurement-api:21.6.2] /home/praveen/.gradle/caches/transforms-3/06087c05134af2123cf82fbb23c47d61/transformed/jetified-play-services-measurement-api-21.6.2/AndroidManifest.xml:32:13-58
+294
+295        <provider
+295-->[com.google.firebase:firebase-common:20.4.3] /home/praveen/.gradle/caches/transforms-3/851e3b408355834ba705294a1e2c00e4/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:23:9-28:39
+296            android:name="com.google.firebase.provider.FirebaseInitProvider"
+296-->[com.google.firebase:firebase-common:20.4.3] /home/praveen/.gradle/caches/transforms-3/851e3b408355834ba705294a1e2c00e4/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:24:13-77
+297            android:authorities="com.trustnewallet.firebaseinitprovider"
+297-->[com.google.firebase:firebase-common:20.4.3] /home/praveen/.gradle/caches/transforms-3/851e3b408355834ba705294a1e2c00e4/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:25:13-72
+298            android:directBootAware="true"
+298-->[com.google.firebase:firebase-common:20.4.3] /home/praveen/.gradle/caches/transforms-3/851e3b408355834ba705294a1e2c00e4/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:26:13-43
+299            android:exported="false"
+299-->[com.google.firebase:firebase-common:20.4.3] /home/praveen/.gradle/caches/transforms-3/851e3b408355834ba705294a1e2c00e4/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:27:13-37
+300            android:initOrder="100" />
+300-->[com.google.firebase:firebase-common:20.4.3] /home/praveen/.gradle/caches/transforms-3/851e3b408355834ba705294a1e2c00e4/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:28:13-36
+301
+302        <receiver
+302-->[com.google.android.gms:play-services-measurement:21.6.2] /home/praveen/.gradle/caches/transforms-3/91d72e357696ea92b801557f1930449e/transformed/jetified-play-services-measurement-21.6.2/AndroidManifest.xml:29:9-33:20
+303            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+303-->[com.google.android.gms:play-services-measurement:21.6.2] /home/praveen/.gradle/caches/transforms-3/91d72e357696ea92b801557f1930449e/transformed/jetified-play-services-measurement-21.6.2/AndroidManifest.xml:30:13-85
+304            android:enabled="true"
+304-->[com.google.android.gms:play-services-measurement:21.6.2] /home/praveen/.gradle/caches/transforms-3/91d72e357696ea92b801557f1930449e/transformed/jetified-play-services-measurement-21.6.2/AndroidManifest.xml:31:13-35
+305            android:exported="false" >
+305-->[com.google.android.gms:play-services-measurement:21.6.2] /home/praveen/.gradle/caches/transforms-3/91d72e357696ea92b801557f1930449e/transformed/jetified-play-services-measurement-21.6.2/AndroidManifest.xml:32:13-37
+306        </receiver>
+307
+308        <service
+308-->[com.google.android.gms:play-services-measurement:21.6.2] /home/praveen/.gradle/caches/transforms-3/91d72e357696ea92b801557f1930449e/transformed/jetified-play-services-measurement-21.6.2/AndroidManifest.xml:35:9-38:40
+309            android:name="com.google.android.gms.measurement.AppMeasurementService"
+309-->[com.google.android.gms:play-services-measurement:21.6.2] /home/praveen/.gradle/caches/transforms-3/91d72e357696ea92b801557f1930449e/transformed/jetified-play-services-measurement-21.6.2/AndroidManifest.xml:36:13-84
+310            android:enabled="true"
+310-->[com.google.android.gms:play-services-measurement:21.6.2] /home/praveen/.gradle/caches/transforms-3/91d72e357696ea92b801557f1930449e/transformed/jetified-play-services-measurement-21.6.2/AndroidManifest.xml:37:13-35
+311            android:exported="false" />
+311-->[com.google.android.gms:play-services-measurement:21.6.2] /home/praveen/.gradle/caches/transforms-3/91d72e357696ea92b801557f1930449e/transformed/jetified-play-services-measurement-21.6.2/AndroidManifest.xml:38:13-37
+312        <service
+312-->[com.google.android.gms:play-services-measurement:21.6.2] /home/praveen/.gradle/caches/transforms-3/91d72e357696ea92b801557f1930449e/transformed/jetified-play-services-measurement-21.6.2/AndroidManifest.xml:39:9-43:72
+313            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+313-->[com.google.android.gms:play-services-measurement:21.6.2] /home/praveen/.gradle/caches/transforms-3/91d72e357696ea92b801557f1930449e/transformed/jetified-play-services-measurement-21.6.2/AndroidManifest.xml:40:13-87
+314            android:enabled="true"
+314-->[com.google.android.gms:play-services-measurement:21.6.2] /home/praveen/.gradle/caches/transforms-3/91d72e357696ea92b801557f1930449e/transformed/jetified-play-services-measurement-21.6.2/AndroidManifest.xml:41:13-35
+315            android:exported="false"
+315-->[com.google.android.gms:play-services-measurement:21.6.2] /home/praveen/.gradle/caches/transforms-3/91d72e357696ea92b801557f1930449e/transformed/jetified-play-services-measurement-21.6.2/AndroidManifest.xml:42:13-37
+316            android:permission="android.permission.BIND_JOB_SERVICE" />
+316-->[com.google.android.gms:play-services-measurement:21.6.2] /home/praveen/.gradle/caches/transforms-3/91d72e357696ea92b801557f1930449e/transformed/jetified-play-services-measurement-21.6.2/AndroidManifest.xml:43:13-69
+317
+318        <uses-library
+318-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/praveen/.gradle/caches/transforms-3/c3edcec35e86722e0596444d5e78767e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+319            android:name="android.ext.adservices"
+319-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/praveen/.gradle/caches/transforms-3/c3edcec35e86722e0596444d5e78767e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+320            android:required="false" />
+320-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /home/praveen/.gradle/caches/transforms-3/c3edcec35e86722e0596444d5e78767e/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+321
+322        <activity
+322-->[androidx.biometric:biometric:1.0.1] /home/praveen/.gradle/caches/transforms-3/5e7761c944f639e1c2b42b0029b3996f/transformed/biometric-1.0.1/AndroidManifest.xml:28:9-31:67
+323            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+323-->[androidx.biometric:biometric:1.0.1] /home/praveen/.gradle/caches/transforms-3/5e7761c944f639e1c2b42b0029b3996f/transformed/biometric-1.0.1/AndroidManifest.xml:29:13-78
+324            android:exported="true"
+324-->[androidx.biometric:biometric:1.0.1] /home/praveen/.gradle/caches/transforms-3/5e7761c944f639e1c2b42b0029b3996f/transformed/biometric-1.0.1/AndroidManifest.xml:30:13-36
+325            android:theme="@style/DeviceCredentialHandlerTheme" />
+325-->[androidx.biometric:biometric:1.0.1] /home/praveen/.gradle/caches/transforms-3/5e7761c944f639e1c2b42b0029b3996f/transformed/biometric-1.0.1/AndroidManifest.xml:31:13-64
+326        <activity
+326-->[com.google.android.gms:play-services-auth:21.0.0] /home/praveen/.gradle/caches/transforms-3/707f95495c34fad65a5473a0db53c9da/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:23:9-27:75
+327            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+327-->[com.google.android.gms:play-services-auth:21.0.0] /home/praveen/.gradle/caches/transforms-3/707f95495c34fad65a5473a0db53c9da/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:24:13-93
+328            android:excludeFromRecents="true"
+328-->[com.google.android.gms:play-services-auth:21.0.0] /home/praveen/.gradle/caches/transforms-3/707f95495c34fad65a5473a0db53c9da/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:25:13-46
+329            android:exported="false"
+329-->[com.google.android.gms:play-services-auth:21.0.0] /home/praveen/.gradle/caches/transforms-3/707f95495c34fad65a5473a0db53c9da/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:26:13-37
+330            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+330-->[com.google.android.gms:play-services-auth:21.0.0] /home/praveen/.gradle/caches/transforms-3/707f95495c34fad65a5473a0db53c9da/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:27:13-72
+331        <!--
+332            Service handling Google Sign-In user revocation. For apps that do not integrate with
+333            Google Sign-In, this service will never be started.
+334        -->
+335        <service
+335-->[com.google.android.gms:play-services-auth:21.0.0] /home/praveen/.gradle/caches/transforms-3/707f95495c34fad65a5473a0db53c9da/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:33:9-37:51
+336            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+336-->[com.google.android.gms:play-services-auth:21.0.0] /home/praveen/.gradle/caches/transforms-3/707f95495c34fad65a5473a0db53c9da/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:34:13-89
+337            android:exported="true"
+337-->[com.google.android.gms:play-services-auth:21.0.0] /home/praveen/.gradle/caches/transforms-3/707f95495c34fad65a5473a0db53c9da/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:35:13-36
+338            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+338-->[com.google.android.gms:play-services-auth:21.0.0] /home/praveen/.gradle/caches/transforms-3/707f95495c34fad65a5473a0db53c9da/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:36:13-107
+339            android:visibleToInstantApps="true" />
+339-->[com.google.android.gms:play-services-auth:21.0.0] /home/praveen/.gradle/caches/transforms-3/707f95495c34fad65a5473a0db53c9da/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:37:13-48
+340
+341        <activity
+341-->[com.google.android.gms:play-services-base:18.0.1] /home/praveen/.gradle/caches/transforms-3/d0114eae77c8e923ed98c7532f25acdb/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+342            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+342-->[com.google.android.gms:play-services-base:18.0.1] /home/praveen/.gradle/caches/transforms-3/d0114eae77c8e923ed98c7532f25acdb/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+343            android:exported="false"
+343-->[com.google.android.gms:play-services-base:18.0.1] /home/praveen/.gradle/caches/transforms-3/d0114eae77c8e923ed98c7532f25acdb/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+344            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+344-->[com.google.android.gms:play-services-base:18.0.1] /home/praveen/.gradle/caches/transforms-3/d0114eae77c8e923ed98c7532f25acdb/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+345
+346        <meta-data
+346-->[com.google.android.gms:play-services-basement:18.3.0] /home/praveen/.gradle/caches/transforms-3/26a9b82b48e911917eaad5102fe924b8/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+347            android:name="com.google.android.gms.version"
+347-->[com.google.android.gms:play-services-basement:18.3.0] /home/praveen/.gradle/caches/transforms-3/26a9b82b48e911917eaad5102fe924b8/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+348            android:value="@integer/google_play_services_version" />
+348-->[com.google.android.gms:play-services-basement:18.3.0] /home/praveen/.gradle/caches/transforms-3/26a9b82b48e911917eaad5102fe924b8/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+349
+350        <provider
+350-->[androidx.emoji2:emoji2:1.2.0] /home/praveen/.gradle/caches/transforms-3/81b25dd26144c81657ac758b52a24bab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+351            android:name="androidx.startup.InitializationProvider"
+351-->[androidx.emoji2:emoji2:1.2.0] /home/praveen/.gradle/caches/transforms-3/81b25dd26144c81657ac758b52a24bab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+352            android:authorities="com.trustnewallet.androidx-startup"
+352-->[androidx.emoji2:emoji2:1.2.0] /home/praveen/.gradle/caches/transforms-3/81b25dd26144c81657ac758b52a24bab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+353            android:exported="false" >
+353-->[androidx.emoji2:emoji2:1.2.0] /home/praveen/.gradle/caches/transforms-3/81b25dd26144c81657ac758b52a24bab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+354            <meta-data
+354-->[androidx.emoji2:emoji2:1.2.0] /home/praveen/.gradle/caches/transforms-3/81b25dd26144c81657ac758b52a24bab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+355                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+355-->[androidx.emoji2:emoji2:1.2.0] /home/praveen/.gradle/caches/transforms-3/81b25dd26144c81657ac758b52a24bab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+356                android:value="androidx.startup" />
+356-->[androidx.emoji2:emoji2:1.2.0] /home/praveen/.gradle/caches/transforms-3/81b25dd26144c81657ac758b52a24bab/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+357            <meta-data
+357-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/praveen/.gradle/caches/transforms-3/6c46f0ea81c4bcef5396e05cc2606796/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+358                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+358-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/praveen/.gradle/caches/transforms-3/6c46f0ea81c4bcef5396e05cc2606796/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+359                android:value="androidx.startup" />
+359-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/praveen/.gradle/caches/transforms-3/6c46f0ea81c4bcef5396e05cc2606796/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+360        </provider>
+361    </application>
+362
+363</manifest>

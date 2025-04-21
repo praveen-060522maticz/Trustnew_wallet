@@ -1,0 +1,1 @@
+/home/praveen/task/Trust_Fresh/android/app/build/intermediates/cxx/Debug/48401k4c/obj/armeabi-v7a

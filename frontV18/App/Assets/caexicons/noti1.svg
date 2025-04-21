@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
+  <g id="Group_37031" data-name="Group 37031" transform="translate(-309 -48)">
+    <rect id="Rectangle_648" data-name="Rectangle 648" width="33" height="33" rx="16.5" transform="translate(309 48)" fill="#fff" opacity="0.15"/>
+    <g id="Group_37029" data-name="Group 37029" transform="translate(11028 -4287)">
+      <g id="Iconly_Light-Outline_Notification" data-name="Iconly/Light-Outline/Notification" transform="translate(-10708.962 4343.894)">
+        <g id="Notification" transform="translate(0 0)">
+          <path id="Combined-Shape" d="M5.58,14.556a1.922,1.922,0,0,0,1.427.681h0a1.929,1.929,0,0,0,1.432-.682.572.572,0,0,1,.849.765,3.06,3.06,0,0,1-2.282,1.06h0A3.05,3.05,0,0,1,4.731,15.32a.571.571,0,0,1,.849-.763ZM7.045,0a5.468,5.468,0,0,1,5.661,5.1,3.9,3.9,0,0,0,.664,2.374,4.137,4.137,0,0,1,.721,2.408c-.266,3.083-3.485,3.335-7.047,3.335S.263,12.966,0,9.931A4.172,4.172,0,0,1,.719,7.475l.119-.2A3.821,3.821,0,0,0,1.384,5.1,5.468,5.468,0,0,1,7.045,0Zm0,1.143A4.371,4.371,0,0,0,2.526,5.1,4.967,4.967,0,0,1,1.7,8.063a3.012,3.012,0,0,0-.558,1.819c.127,1.437,1.076,2.192,5.9,2.192,4.8,0,5.78-.789,5.907-2.241a2.982,2.982,0,0,0-.56-1.77A4.967,4.967,0,0,1,11.564,5.1,4.371,4.371,0,0,0,7.045,1.143Z" transform="translate(0)" fill="#fff" fill-rule="evenodd"/>
+        </g>
+      </g>
+      <rect id="Rectangle_582" data-name="Rectangle 582" width="18" height="18" transform="translate(-10711 4343)" fill="none"/>
+    </g>
+  </g>
+</svg>
